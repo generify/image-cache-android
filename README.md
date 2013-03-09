@@ -13,13 +13,12 @@ during onResume(). In onPause call setExitTasksEarly(true) and flushCache().
 Changes against BitmapFun
 -------------------------
 
-There were several issues with ImageFetcher from BitmapFun project, when I used two
-image fetcher for two ImageViews, so I have synchronized some parts to work more
-reliable.
+There were several issues with ImageFetcher from BitmapFun project, when there were used
+two ImageFetchers and two ImageViews. Now more ImageFetchers with more ImageViews works
+well.
 
-Disk image cache was not used if 10MB were not free, so I managed to changed this to
-use usable space at least for disk image cache, because image loading stopped working
-otherwise.
+Disk image cache was not used if 10MB were not free. Now is used usable space at least,
+because image loading stopped working otherwise.
 
 
 
