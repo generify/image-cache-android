@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.bitmapfun.provider;
+package io.generify.android.bitmapfun.provider;
 
 /**
  * Some simple test data to use for this sample app.

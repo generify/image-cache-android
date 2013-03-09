@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.bitmapfun.ui;
+package io.generify.android.bitmapfun.ui;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.generify.imagecache;
+package io.generify.android.imagecache;
 
 import android.annotation.TargetApi;
 import android.app.ActivityManager;
@@ -87,8 +87,8 @@ public class ImageCache {
     }
 
     /**
-     * Find and return an existing ImageCache stored in a {@link io.generify.imagecache.ImageCache.RetainFragment}, if not found a new
-     * one is created using the supplied params and saved to a {@link io.generify.imagecache.ImageCache.RetainFragment}.
+     * Find and return an existing ImageCache stored in a {@link io.generify.android.imagecache.ImageCache.RetainFragment}, if not found a new
+     * one is created using the supplied params and saved to a {@link io.generify.android.imagecache.ImageCache.RetainFragment}.
      *
      * @param fragmentManager The fragment manager to use when dealing with the retained fragment.
      * @param cacheParams     The cache parameters to use if creating the ImageCache

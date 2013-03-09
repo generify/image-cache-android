@@ -16,7 +16,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.android.bitmapfun"
+          package="io.generify.android.bitmapfun"
           android:versionCode="1"
           android:versionName="1.0">
 

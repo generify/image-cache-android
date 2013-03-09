@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.example.android.bitmapfun.ui;
+package io.generify.android.bitmapfun.ui;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.util.Log;
 
-import com.example.android.bitmapfun.BuildConfig;
+import io.generify.android.bitmapfun.BuildConfig;
 
 /**
  * A BitmapDrawable that keeps track of whether it is being displayed or cached.

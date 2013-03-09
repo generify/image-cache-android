@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.example.android.bitmapfun.ui;
+package io.generify.android.bitmapfun.ui;
 
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
-import com.example.android.bitmapfun.BuildConfig;
+import io.generify.android.bitmapfun.BuildConfig;
 
 /**
  * Simple FragmentActivity to hold the main {@link ImageGridFragment} and not much else.

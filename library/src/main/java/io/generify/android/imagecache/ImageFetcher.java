@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.generify.imagecache;
+package io.generify.android.imagecache;
 
 import android.content.Context;
 import android.graphics.Bitmap;

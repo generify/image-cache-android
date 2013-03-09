@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.bitmapfun.ui;
+package io.generify.android.bitmapfun.ui;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -24,9 +24,9 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.example.android.bitmapfun.R;
-import io.generify.imagecache.ImageFetcher;
-import io.generify.imagecache.ImageWorker;
+import io.generify.android.bitmapfun.R;
+import io.generify.android.imagecache.ImageFetcher;
+import io.generify.android.imagecache.ImageWorker;
 
 /**
  * This fragment will populate the children of the ViewPager from {@link ImageDetailActivity}.

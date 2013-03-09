@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.generify.imagecache;
+package io.generify.android.imagecache;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -62,9 +62,9 @@ public abstract class ImageWorker {
 
     /**
      * Load an image specified by the data parameter into an ImageView (override
-     * {@link io.generify.imagecache.ImageWorker#processBitmap(Object)} to define the processing logic). A memory and disk
+     * {@link io.generify.android.imagecache.ImageWorker#processBitmap(Object)} to define the processing logic). A memory and disk
      * cache will be used if an {@link ImageCache} has been set using
-     * {@link io.generify.imagecache.ImageWorker#setImageCache(ImageCache)}. If the image is found in the memory cache, it
+     * {@link io.generify.android.imagecache.ImageWorker#setImageCache(ImageCache)}. If the image is found in the memory cache, it
      * is set immediately, otherwise an {@link AsyncTask} will be created to asynchronously load the
      * bitmap.
      *
@@ -134,7 +134,7 @@ public abstract class ImageWorker {
 
     /**
      * Sets the {@link ImageCache} object to use with this ImageWorker. Usually you will not need
-     * to call this directly, instead use {@link io.generify.imagecache.ImageWorker#addImageCache} which will create and
+     * to call this directly, instead use {@link io.generify.android.imagecache.ImageWorker#addImageCache} which will create and
      * add the {@link ImageCache} object in a background thread (to ensure no disk access on the
      * main/UI thread).
      *
@@ -161,7 +161,7 @@ public abstract class ImageWorker {
      * example, you could resize a large bitmap here, or pull down an image from the network.
      *
      * @param data The data to identify which image to process, as provided by
-     *             {@link io.generify.imagecache.ImageWorker#loadImage(Object, android.widget.ImageView)}
+     *             {@link io.generify.android.imagecache.ImageWorker#loadImage(Object, android.widget.ImageView)}
      * @return The processed bitmap
      */
     protected abstract Bitmap processBitmap(Object data);

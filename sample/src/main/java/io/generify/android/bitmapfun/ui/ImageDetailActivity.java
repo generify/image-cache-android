@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.bitmapfun.ui;
+package io.generify.android.bitmapfun.ui;
 
 import android.annotation.TargetApi;
 import android.app.ActionBar;
@@ -33,11 +33,11 @@ import android.view.View.OnClickListener;
 import android.view.WindowManager.LayoutParams;
 import android.widget.Toast;
 
-import com.example.android.bitmapfun.BuildConfig;
-import com.example.android.bitmapfun.R;
-import com.example.android.bitmapfun.provider.Images;
-import io.generify.imagecache.ImageCache;
-import io.generify.imagecache.ImageFetcher;
+import io.generify.android.bitmapfun.BuildConfig;
+import io.generify.android.bitmapfun.R;
+import io.generify.android.bitmapfun.provider.Images;
+import io.generify.android.imagecache.ImageCache;
+import io.generify.android.imagecache.ImageFetcher;
 
 public class ImageDetailActivity extends FragmentActivity implements OnClickListener {
     private static final String IMAGE_CACHE_DIR = "images";

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.generify.imagecache;
+package io.generify.android.imagecache;
 
 import android.annotation.TargetApi;
 import android.os.Handler;
@@ -274,7 +274,7 @@ public abstract class AsyncTask<Params, Progress, Result> {
          */
         RUNNING,
         /**
-         * Indicates that {@link io.generify.imagecache.AsyncTask#onPostExecute} has finished.
+         * Indicates that {@link io.generify.android.imagecache.AsyncTask#onPostExecute} has finished.
          */
         FINISHED,
     }
@@ -536,7 +536,7 @@ public abstract class AsyncTask<Params, Progress, Result> {
      * @param params The parameters of the task.
      * @return This instance of AsyncTask.
      * @throws IllegalStateException If {@link #getStatus()} returns either
-     *                               {@link io.generify.imagecache.AsyncTask.Status#RUNNING} or {@link io.generify.imagecache.AsyncTask.Status#FINISHED}.
+     *                               {@link io.generify.android.imagecache.AsyncTask.Status#RUNNING} or {@link io.generify.android.imagecache.AsyncTask.Status#FINISHED}.
      * @see #executeOnExecutor(java.util.concurrent.Executor, Object[])
      * @see #execute(Runnable)
      */
@@ -571,7 +571,7 @@ public abstract class AsyncTask<Params, Progress, Result> {
      * @param params The parameters of the task.
      * @return This instance of AsyncTask.
      * @throws IllegalStateException If {@link #getStatus()} returns either
-     *                               {@link io.generify.imagecache.AsyncTask.Status#RUNNING} or {@link io.generify.imagecache.AsyncTask.Status#FINISHED}.
+     *                               {@link io.generify.android.imagecache.AsyncTask.Status#RUNNING} or {@link io.generify.android.imagecache.AsyncTask.Status#FINISHED}.
      * @see #execute(Object[])
      */
     public final AsyncTask<Params, Progress, Result> executeOnExecutor(Executor exec,
