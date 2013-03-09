@@ -15,26 +15,6 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <name>Image Cache for Android</name>
-    <description>Memory and disk image cache used used as sample in Displaying Bitmaps Efficiently
-        (official Android developers tutorial).
-        Customized to work with multiple ImageViews with different cache and to do not require 10 MB free space for
-        disk caching at least.
-    </description>
-    <inceptionYear>2013</inceptionYear>
-
-    <organization>
-        <name>GENERIFY.IO</name>
-        <url>http://generify.io</url>
-    </organization>
-
-    <licenses>
-        <license>
-            <name>Apache 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-        </license>
-    </licenses>
-
     <dependencies>
         <dependency>
             <groupId>com.jakewharton</groupId>

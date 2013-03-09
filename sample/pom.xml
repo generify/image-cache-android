@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.generify.android</groupId>
-    <artifactId>image-cache-sample</artifactId>
+    <artifactId>imagecache-sample</artifactId>
     <packaging>apk</packaging>
 
     <parent>
