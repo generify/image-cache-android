@@ -8,7 +8,7 @@ Displaying Bitmaps Efficiently lesson.
 
 Memory and disk is used for caching images. Most important class is ImageFetcher, which
 is used for loading images into ImageView. Don't forget to call setExitTasksEarly(false)
-during onResume(). In onPause call setExitTasksEarly(true) and flushCache().
+during onResume(). In onPause() call setExitTasksEarly(true) and flushCache().
 
 Changes against BitmapFun
 -------------------------
