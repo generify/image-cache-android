@@ -1,7 +1,7 @@
 Image Cache for Android
 =======================
 
-Image Cache for Android is an standalone library based on BitmapFun.zip from
+Image Cache for Android is standalone library based on BitmapFun.zip from
 Displaying Bitmaps Efficiently lesson.
 
 **http://developer.android.com/training/displaying-bitmaps/index.html**
